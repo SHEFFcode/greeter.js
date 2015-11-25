@@ -2,7 +2,7 @@
                                      								Greeter.js
 ================================================================================================================================================*/
 //Create an immediately invoced function.
-( function( global, $ ) {
+;( function( global, $ ) {
 	//Set up a function that will create a new Greeter.init object.
 	var Greeter = function( firstName, lastName, langauge ) {
 		return new Greeter.init( firstName, lastName, langauge );
